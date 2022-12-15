@@ -21,7 +21,7 @@ const Projects = () => {
       </div>
       <div className="px-4 flex flex-col md:px-10">
         <h1 className="text-blacky text-2xl font-ibm font-bold">
-          What I've Build
+          What I have Build
         </h1>
       </div>
 
