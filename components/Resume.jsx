@@ -47,8 +47,8 @@ const Resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className="px-1">|</span> Web Development{" "}
-              <span className="px-1">|</span> Complex Problem Solving
+              Full Stack Developer <span className="px-1">|</span> Web
+              Development <span className="px-1">|</span> Data Scientist
             </p>
           </div>
           <div className="block sm:hidden">
@@ -58,15 +58,12 @@ const Resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          An experienced as a full stack developer with various programming
+          skills that can be developed further with strong passion to learn new
+          things fastly. Highly skilled in communication, collaboration and
+          technical documentation. Proficient in React, NextJs, SQL, Golang,
+          NodeJs and Python. Currently I am interested and learning about mobile
+          developer
         </p>
 
         {/* Skills */}

@@ -61,22 +61,22 @@ const Navbar = () => {
               {/* thesidebar */}
             </div>
             <div className="hidden fixed md:flex items-center justify-center space-x-[6rem] left-0 top-16 w-full h-12 bg-test z-[100] text-navbar font-ibm font-bold  ">
-              <Link href="#home" className="hover:text-white/90 ">
+              <Link href="/#home" className="hover:text-white/90 ">
                 Home
               </Link>
-              <Link href="#about" className="hover:text-white/90 ">
+              <Link href="/#about" className="hover:text-white/90 ">
                 About
               </Link>
-              <Link href="#skills" className="hover:text-white/90 ">
+              <Link href="/#skills" className="hover:text-white/90 ">
                 Skills
               </Link>
-              <Link href="#projects" className="hover:text-white/90 ">
+              <Link href="/#projects" className="hover:text-white/90 ">
                 Projects
               </Link>
-              <Link href="#" className="hover:text-white/90 ">
+              <Link href="/resume" className="hover:text-white/90 ">
                 Resume
               </Link>
-              <Link href="#contact" className="hover:text-white/90 ">
+              <Link href="/#contact" className="hover:text-white/90 ">
                 Contact
               </Link>
             </div>
