@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FiCodesandbox } from "react-icons/fi";
 import { BsEmojiSunglasses } from "react-icons/bs";
-import { GiSharpSmile } from "react-icons/Gi";
+import { GiSharpSmile } from "react-icons/gi";
 
 const Navbar = ({ onFormSubmit }) => {
   const [shadow, setShadow] = useState(false);
