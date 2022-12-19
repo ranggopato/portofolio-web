@@ -52,73 +52,118 @@ const Resume = () => {
             </p>
           </div>
           <div className="block sm:hidden">
-            <p>Proven Leadership</p>
+            <p>Full Stack Developer</p>
             <p className="py-2">Web Development</p>
-            <p>Complex Problem Solving</p>
+            <p>Data Scientist</p>
           </div>
         </div>
         <p>
           An experienced as a full stack developer with various programming
           skills that can be developed further with strong passion to learn new
           things fastly. Highly skilled in communication, collaboration and
-          technical documentation. Proficient in React, NextJs, SQL, Golang,
-          NodeJs and Python. Currently I am interested and learning about mobile
-          developer
+          technical documentation. Proficient in SQL, React, NextJS, Golang,
+          CSS, HTML and strong understanding of Vue, Angular, NodeJS, Python.
+          Currently I am interested and learning about mobile developer
         </p>
 
         {/* Skills */}
-        <div className="text-center py-4">
-          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <p className="py-2">
-            <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Front-End Web Developer
-            <span className="px-2">|</span> HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>React
-            <span className="px-2">|</span>Next JS
+        <div className="text-center p-4">
+          <h5 className="text-center font-bold underline text-[18px] uppercase py-2">
+            Skills
+          </h5>
+          <p className="p-2">
+            <div className="font-bold">Full Stack Engineer</div>
+            <span className="px-2"></span>Golang
+            <span className="px-2">|</span>Python
+            <span className="px-2">|</span>Flask
+            <span className="px-2">|</span>JavaScript
+            <span className="px-2">
+              <br />
+            </span>
+            React
             <span className="px-2">|</span>SQL
             <span className="px-2">|</span>NoSQL
             <span className="px-2">|</span>Redux
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
+            <span className="px-2">
+              <br />
+            </span>{" "}
+            Node (Express Framework)
             <span className="px-2">|</span> RESTAPI
+            <span className="px-2">|</span> Angular
+            <span className="px-2">|</span> VueJS
           </p>
-          <p className="py-2">
-            <span className="font-bold">Amazon Web Services</span>
-            <span className="px-2">|</span>Amazon Web Services Cloud
-            Practitioner
+          <p className="p-2">
+            <div className="font-bold">Data Analyst</div>
+            <span className="px-2"></span>Python
+            <span className="px-2">|</span>Numpy
+            <span className="px-2">|</span>Pandas
+            <span className="px-2">|</span>Seaborn
+            <span className="px-2">
+              <br />
+            </span>
+            Exploratory Data Analyst
+            <span className="px-2">|</span>Tableu
+            <span className="px-2">|</span>Google Data Studio
+          </p>
+          <p className="p-2">
+            <div className="font-bold">Data Scientist</div>
+            <span className="px-2"></span>Python
+            <span className="px-2">|</span>Numpy
+            <span className="px-2">|</span>Pandas
+            <span className="px-2">
+              <br />
+            </span>
+            Seaborn
+            <span className="px-2">|</span>Regresion
+            <span className="px-2">|</span>Classification
+            <span className="px-2">
+              <br />
+            </span>
+            Clustering
+            <span className="px-2">|</span>Machine Learning Method and Tools
           </p>
         </div>
 
-        <h5 className="text-center underline text-[18px] py-4">
+        <h5 className="text-center font-bold underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">INFINITE TECH</span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="font-bold italic">
+              PT Sharing Vision Indonesia
+            </span>
+            <span className="px-2">|</span>Bank Rakyat Indonesia (BRI) Sudirman,
+            Jakarta
           </p>
           <p className="py-1 italic">
-            Front End Web Developer & Web Master (2013 - Current)
+            FULL STACK ENGINEER (February 2022 - Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Built and developed a microservice using golang to consume data
+              from kafka
+            </li>
+            <li>Made message broker and data model using kafka</li>
+            <li>
+              Produced and connected kafka topics with microservices using
+              golang
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Consumed data from a kafka topic to PostgreSQL using kafka connect
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Provide data for development needs using cloudera data science
+              work bench (pyspark and postgre)
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Used SQL queries to pull data from multiple databases to provide
+              development data
+            </li>
+            <li>
+              Implemented an enhanced GRPC service (create, read, delete,
+              update) using golang
             </li>
           </ul>
         </div>
@@ -127,23 +172,18 @@ const Resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">
-              Teaching & Mentoring Web Development
+              Kreasi Handal Selaras Group Project
             </span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="px-2">|</span>Freelance
           </p>
           <p className="py-1 italic">
-            Code Commerce - Youtube Channel (2021 - Current)
+            FRONT-END ENGINEER (Oktober 2022 - Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Developed responsive website from figma using NextJs</li>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+              Successfully built a responsive website that is compatible with
+              all devices
             </li>
           </ul>
         </div>
@@ -156,36 +196,16 @@ const Resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
+            <span className="font-bold">PT Indonesia Power UP</span>
+            <span className="px-2">|</span>Bali
           </p>
-          <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
+          <p className="py-1 italic">
+            STUDENT INTERN OF INSTRUMENT ENGINEERING (July - August, 2019)
+          </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Learn about wastegate valve as a part of turbocharger system and
+              maintenance wastegate and I/P transducer
             </li>
           </ul>
         </div>

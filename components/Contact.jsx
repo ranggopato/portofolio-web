@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
+import projectunsplash1 from "../public/assets/projects/project-unsplash1.jpg";
 
 const Contact = () => {
   return (
@@ -32,7 +32,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={ContactImg}
+                  src={projectunsplash1}
                   alt="/"
                 />
               </div>
@@ -87,7 +87,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-cokelat rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                action="https://getform.io/f/aa57a437-6e8d-4c31-84f6-5cd27dfe72f5"
                 method="POST"
                 encType="multipart/form-data"
               >

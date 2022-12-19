@@ -1,15 +1,24 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import TypeWriter from "./TypeWriter";
 
 const About = () => {
   return (
     <div id="about" className="w-full  p-2 flex-col ">
-      <div id="quote" className="flex  justify-center">
+      <div className="flex  justify-center">
         <div className="border-4 border-navbar font-ibm font-bold text-2xl p-4 bg-test text-navbar animate-type">
           Quote of the Day
         </div>
       </div>
+      <div className="flex m-8 justify-center">
+        <div className="font-ibm font-bold text-xl p-4 text-cokelat ">
+          <div>
+            <TypeWriter />
+          </div>
+        </div>
+      </div>
+
       <div className="flex items-center m-4">
         <div className="flex-grow h-[4px] bg-cokelat"></div>
 

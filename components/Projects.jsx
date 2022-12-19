@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+
+import projectunsplash2 from "../public/assets/projects/project-unsplash2.jpg";
+import projectunsplash3 from "../public/assets/projects/project-unsplash3.jpg";
+import projectunsplash4 from "../public/assets/projects/project-unsplash4.jpg";
+import projectunsplash5 from "../public/assets/projects/project-unsplash5.jpg";
+
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -27,27 +29,27 @@ const Projects = () => {
 
       <div className="grid p-8 md:p-12 md:grid-cols-2 gap-8">
         <ProjectItem
-          title="Property Finder"
-          backgroundImg={propertyImg}
-          projectUrl="/property"
+          title="Book Finder"
+          backgroundImg={projectunsplash5}
+          projectUrl="/"
           tech="React JS"
         />
         <ProjectItem
-          title="Crypto App"
-          backgroundImg={cryptoImg}
-          projectUrl="/crypto"
+          title="Car Finder"
+          backgroundImg={projectunsplash2}
+          projectUrl="/"
           tech="React JS"
         />
         <ProjectItem
-          title="Netflix App"
-          backgroundImg={netflixImg}
-          projectUrl="/netflix"
+          title="Coffe shop"
+          backgroundImg={projectunsplash3}
+          projectUrl="/"
           tech="React JS"
         />
         <ProjectItem
-          title="Twitch UI"
-          backgroundImg={twitchImg}
-          projectUrl="/twitch"
+          title="Pet Finder"
+          backgroundImg={projectunsplash4}
+          projectUrl="/"
           tech="Next JS"
         />
       </div>
