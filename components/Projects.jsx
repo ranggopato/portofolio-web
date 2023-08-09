@@ -1,13 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
-import projectunsplash2 from "../public/assets/projects/project-unsplash2.jpg";
-import projectunsplash3 from "../public/assets/projects/project-unsplash3.jpg";
-import projectunsplash4 from "../public/assets/projects/project-unsplash4.jpg";
-import projectunsplash5 from "../public/assets/projects/project-unsplash5.jpg";
+import calcProject from '../public/assets/projects/calc-project.png';
+import freelancerProject from '../public/assets/projects/freelance-project.png';
+import recipeProject from '../public/assets/projects/recipe-project.png';
+import youtubeClone from '../public/assets/projects/youtube-clone.png';
+import SliderImage from '../public/assets/projects/slider-image.png';
+import RestApi from '../public/assets/projects/rest-api.png';
 
-import ProjectItem from "./ProjectItem";
+import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
@@ -29,28 +31,40 @@ const Projects = () => {
 
       <div className="grid p-8 md:p-12 md:grid-cols-2 gap-8">
         <ProjectItem
-          title="Book Finder"
-          backgroundImg={projectunsplash5}
-          projectUrl="/"
+          title="Youtube Clone"
+          backgroundImg={youtubeClone}
+          projectUrl="https://youtube-clone-ranggo.netlify.app"
           tech="React JS"
         />
         <ProjectItem
-          title="Car Finder"
-          backgroundImg={projectunsplash2}
-          projectUrl="/"
+          title="Freelancer-App"
+          backgroundImg={freelancerProject}
+          projectUrl="https://freelancerappbyranggo.netlify.app"
+          tech="Vue,Vuex and FireBase"
+        />
+        <ProjectItem
+          title="Recipes Project"
+          backgroundImg={recipeProject}
+          projectUrl="https://recipebyranggo.netlify.app"
+          tech="Angular and FireBase"
+        />
+        <ProjectItem
+          title="Rest-API"
+          backgroundImg={RestApi}
+          projectUrl="https://node-express-api.up.railway.app/"
+          tech="Node, Express, and MongoDb"
+        />
+        <ProjectItem
+          title="Calculator Project"
+          backgroundImg={calcProject}
+          projectUrl="https://calculatorbyranggo.netlify.app"
           tech="React JS"
         />
         <ProjectItem
-          title="Coffe shop"
-          backgroundImg={projectunsplash3}
-          projectUrl="/"
+          title="Slider Image"
+          backgroundImg={SliderImage}
+          projectUrl="https://imagesliderbyranggo.netlify.app"
           tech="React JS"
-        />
-        <ProjectItem
-          title="Pet Finder"
-          backgroundImg={projectunsplash4}
-          projectUrl="/"
-          tech="Next JS"
         />
       </div>
     </div>

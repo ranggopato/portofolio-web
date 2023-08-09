@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Resume = () => {
   return (
@@ -28,7 +28,7 @@ const Resume = () => {
               <FaLinkedinIn
                 className="text-navbar text-xl"
                 size={20}
-                style={{ marginRight: "1rem" }}
+                style={{ marginRight: '1rem' }}
               />
             </a>
             <a
@@ -39,7 +39,7 @@ const Resume = () => {
               <FaGithub
                 size={20}
                 className="text-navbar text-xl"
-                style={{ marginRight: "1rem" }}
+                style={{ marginRight: '1rem' }}
               />
             </a>
           </div>
@@ -87,7 +87,7 @@ const Resume = () => {
             <span className="px-2">|</span>Tailwind
             <span className="px-2">
               <br />
-            </span>{" "}
+            </span>{' '}
             Node (Express Framework)
             <span className="px-2">|</span> RESTAPI
             <span className="px-2">|</span> Angular
@@ -131,6 +131,34 @@ const Resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">KMNC Klinik</span>
+            <span className="px-2">|</span>Freelance
+          </p>
+          <p className="py-1 italic">
+            FRONT-END ENGINEER (June 2023 - Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Developed and built CMS website from figma using Angular</li>
+            <li>Fixed Angular and styling bug</li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
+              Haioo Indonesia (Telkom Indonesia)
+            </span>
+            <span className="px-2">|</span>Transvision Tebet, Jakarta
+          </p>
+          <p className="py-1 italic">
+            BACK END ENGINEER (February 2023 - July 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Developed and built feature for Haioo app</li>
+            <li>Developed and built CMS</li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">
               PT Sharing Vision Indonesia
             </span>
@@ -138,7 +166,7 @@ const Resume = () => {
             Jakarta
           </p>
           <p className="py-1 italic">
-            FULL STACK ENGINEER (February 2022 - Current)
+            FULL STACK ENGINEER (February 2022 - December 2022)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -177,7 +205,7 @@ const Resume = () => {
             <span className="px-2">|</span>Freelance
           </p>
           <p className="py-1 italic">
-            FRONT-END ENGINEER (Oktober 2022 - Current)
+            FRONT-END ENGINEER (Oktober 2022 - February 2022)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>Developed responsive website from figma using NextJs</li>
