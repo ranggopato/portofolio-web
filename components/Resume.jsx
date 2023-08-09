@@ -160,6 +160,24 @@ const Resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">
+              Kreasi Handal Selaras Group Project
+            </span>
+            <span className="px-2">|</span>Freelance
+          </p>
+          <p className="py-1 italic">
+            FRONT-END ENGINEER (Oktober 2022 - February 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Developed responsive website from figma using NextJs</li>
+            <li>
+              Successfully built a responsive website that is compatible with
+              all devices
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
               PT Sharing Vision Indonesia
             </span>
             <span className="px-2">|</span>Bank Rakyat Indonesia (BRI) Sudirman,
@@ -197,24 +215,6 @@ const Resume = () => {
         </div>
 
         {/* Personal Experience */}
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">
-              Kreasi Handal Selaras Group Project
-            </span>
-            <span className="px-2">|</span>Freelance
-          </p>
-          <p className="py-1 italic">
-            FRONT-END ENGINEER (Oktober 2022 - February 2022)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>Developed responsive website from figma using NextJs</li>
-            <li>
-              Successfully built a responsive website that is compatible with
-              all devices
-            </li>
-          </ul>
-        </div>
 
         {/*  */}
         <h5 className="text-center underline text-[18px] py-4">

@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import TypeWriter from "./TypeWriter";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import TypeWriter from './TypeWriter';
 
 const About = () => {
   return (
@@ -30,13 +30,13 @@ const About = () => {
       </div>
       <div className="px-4 md:px-10">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am a programmer and a learner who really likes programming. every
+          day I learn new things related to programming languages or their
+          implementation in the world of work, and I also really like algorithms
+          a lot, With 2 years of professional experience I have learned various
+          programming languages. This is due to my love of learning and
+          recognizing new things, I hope that later I can contribute to
+          advancing the development of IT in Indonesia
         </p>
       </div>
     </div>
